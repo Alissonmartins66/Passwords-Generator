@@ -1,6 +1,6 @@
 import { View, Text, StyleSheet, TouchableOpacity, Pressable } from "react-native";
 import * as Clipboard from 'expo-clipboard';
-import { Ionicons } from '@expo/vector-icons'; // Certifique-se de importar os ícones necessários
+import { Ionicons } from '@expo/vector-icons'; 
 import useStorage from "../../hooks/useStorage";
 
 export function ModalPassword({ password, handleClose }) {
